@@ -1,0 +1,46 @@
+%Title: Car Accident Risk
+ 
+%Sources:
+
+Jägerbrand, A. K., & Sjöbergh, J. (2016). Effects of weather conditions, light conditions, and road lighting on vehicle speed. SpringerPlus, 5, 505. https://doi.org/10.1186/s40064-016-2124-6, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4842190/
+
+%Author: James Cooke
+
+@Relation Accidents
+
+Attributes: 
+
+@Attribute Road Lighting (yes, no) 
+
+@Attribute Distance to Intersection REAL 
+
+@Attribute KPH Speed Limit REAL
+
+@Attribute Road Type (1= rural, 2= urban, 3=highway) REAL
+
+@Attribute class risk (high, medium, low)
+
+
+@Data: 
+yes,50,60,1,low
+yes,0,50,2,low
+no,80,90,1,medium
+no,6720,120,3,high
+yes,120,70,2,high
+yes,310,50,2,medium
+yes,122,50,2,low
+no,318,70,1,low
+yes,102,60,1,low
+no,1590,110,3,medium
+yes,230,100,3,high
+no,300,80,1,low
+yes,40,50,1,medium
+no,386,80,1,low
+yes,134,70,2,high
+
+
+
+
+
+
+
